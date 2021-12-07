@@ -143,6 +143,6 @@ public class Disco implements Serializable {
         autor = stream.readUTF();
         precio = stream.readDouble();
         cantidad = stream.readInt();
-    } // fin leeComicDeFichero
+    }
 
 }
